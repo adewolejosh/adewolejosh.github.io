@@ -1,14 +1,12 @@
 <template>
     <div>
-        <title>{{ article.title }}</title>
-        <div class="m-5">
-            <nuxt-link to="/blog">
+        <title>{{ article.title }}</title>            
+        <div class="row row-cols-1 row-cols-sm-3 m-5">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <nuxt-link to="/blog">
                 <i class="fas fa-arrow-circle-left fa-2x text-dark"></i>
-            </nuxt-link>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 m-5">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+                </nuxt-link>
                 <div class="mt-5">
                     <div class="mt-5 mb-2">
                         <h3 class="post-title font-weight-bold text-capitalize">{{ article.title }}</h3>
@@ -48,7 +46,7 @@
                     </div> 
                 </div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
 </template>

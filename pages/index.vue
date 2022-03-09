@@ -3,9 +3,9 @@
         <navigation></navigation>
         <div class="mt-5 me-5 ms-5 mb-5" id="index-content">
             <div class="cont-container">
-                <div class="row row-cols-1 row-cols-md-3">
+                <div class="row row-cols-1 row-cols-sm-3">
 
-                    <div class="col-md-6 mt-3">
+                    <div class="col-sm-6 mt-3">
                         <div class="main-write">
                             <h3>Hi,</h3>
                             <h2>I'm Joshua Adewole</h2>
@@ -37,9 +37,9 @@
                         </div> 
                     </div>
 
-                    <div class="col-md-2"></div>
+                    <div class="col-sm-2"></div>
 
-                    <div class="col-md-4 mt-3 main-photo order-first order-sm-first order-md-2">
+                    <div class="col-sm-4 mt-3 main-photo order-first order-sm-first order-md-2">
                         <div class="main-photo">
                             <img class="mx-auto d-block" src="@/static/images/josh.jpg" id="josh">
                         </div>
@@ -61,11 +61,23 @@ components: {
 },
 
 data() {
-    return{
-
+      return {
+        title: 'I am Josh!'
+      }
+    },
+    head() {
+      return {
+        title: this.title,
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'All of Me',
+            name: 'Josh\'s',
+            content: 'welcome to my portfolio/blog/personal space'
+          }
+        ]
+      }
     }
-}
-
 } 
 
 </script>

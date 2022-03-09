@@ -6,12 +6,15 @@
     "dev": "nuxt",
     "generate": "nuxt generate",
     "start": "nuxt start",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Joshua Adewole",
   "license": "ISC",
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "nuxt": "^2.15.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

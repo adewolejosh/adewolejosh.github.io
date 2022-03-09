@@ -1,11 +1,10 @@
 <template>
-    <div class="m-5">
-        <nuxt-link to="/">
-            <i class="fas fa-arrow-circle-left fa-2x text-dark"></i>
-        </nuxt-link>
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+        <div class="row row-cols-1 row-cols-sm-3 mt-5">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <nuxt-link to="/">
+                    <i class="fas fa-arrow-circle-left fa-2x text-dark"></i>
+                </nuxt-link>
                 <div class="mt-5 mb-5 me-5 ms-5">
                     <h4 class="text-center mb-5" id="headerz">Writings</h4>
                     <ul>
@@ -28,9 +27,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-sm-2"></div>
         </div>
-    </div>
 </template>
 
 <script>
@@ -44,6 +42,24 @@
 
             return {
                 articles
+            }
+        },
+        data() {
+            return {
+                title: 'Josh\'s Blog'
+            }
+            },
+            head() {
+            return {
+                title: this.title,
+                meta: [
+                // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+                {
+                    hid: '',
+                    name: '',
+                    content: 'Welcome to my blog/personal space'
+                }
+                ]
             }
         }
     }
