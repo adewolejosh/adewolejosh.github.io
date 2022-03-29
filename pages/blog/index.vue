@@ -1,7 +1,7 @@
 <template>
-        <div class="row row-cols-1 row-cols-sm-3 mt-5">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
+        <div class="row row-cols-1 row-cols-md-3 m-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <nuxt-link to="/">
                     <i class="fas fa-arrow-circle-left fa-2x text-dark"></i>
                 </nuxt-link>
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-2"></div>
+            <div class="col-md-2"></div>
         </div>
 </template>
 

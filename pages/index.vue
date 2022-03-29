@@ -3,16 +3,16 @@
         <navigation></navigation>
         <div class="mt-5 me-5 ms-5 mb-5" id="index-content">
             <div class="cont-container">
-                <div class="row row-cols-1 row-cols-sm-3">
+                <div class="row row-cols-1 row-cols-md-3">
 
-                    <div class="col-sm-6 mt-3">
+                    <div class="col-md-6 mt-3">
                         <div class="main-write">
                             <h3>Hi,</h3>
                             <h2>I'm Joshua Adewole</h2>
                             <div>
                                 <p>
                                     <small class="intro">
-                                        Currently design scalable mobile apps in a very interesting distributed work environment. <br/>
+                                        Currently studying Systems Engineering; Open for SWE roles as well as hackathons. <br/>
                                         For fun: Design elegant web apps and major in Backend.<br/>
                                         <nuxt-link class="text-decoration-none" to="/about">
                                             <button class="btn btn-outline-dark mt-3 btn-sm waves-effect">
@@ -37,9 +37,9 @@
                         </div> 
                     </div>
 
-                    <div class="col-sm-2"></div>
+                    <div class="col-md-2"></div>
 
-                    <div class="col-sm-4 mt-3 main-photo order-first order-sm-first order-md-2">
+                    <div class="col-md-4 mt-3 main-photo order-first order-sm-first order-md-1">
                         <div class="main-photo">
                             <img class="mx-auto d-block" src="@/static/images/josh.jpg" id="josh">
                         </div>
