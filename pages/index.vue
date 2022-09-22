@@ -13,7 +13,7 @@
                                 <p>
                                     <small class="intro">
                                         Currently studying Systems Engineering; Open for SWE roles as well as hackathons. <br/>
-                                        For fun: Design elegant web apps and major in Backend.<br/>
+                                        For fun: Convert UI designs to elegant mobile and web apps.<br/>
                                         <nuxt-link class="text-decoration-none" to="/about">
                                             <button class="btn btn-outline-dark mt-3 btn-sm waves-effect">
                                                 About Me

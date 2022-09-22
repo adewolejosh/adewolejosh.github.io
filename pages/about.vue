@@ -8,39 +8,30 @@
             <hr/>
             <div class="mt-5 me-xl-5 ms-xl-5 mb-5" id="about-note">
                 <p>
-                    Hi there, I'm Joshua Adewole. I'm a Software Engineer with experience writing server and client side solutions in Python and JavaScript.
-                    I sometimes design and write- mostly undocumented materials which I hope to change from now(at the time of writing). I'm currently Open to Backend
-                    and/or Fullstack Engineering roles, here's <a  target="_blank" href="https://docs.google.com/document/d/1rZhml6tSsuClQ7wn2kniYsUlJkNhI_IjCY1RI_zbptI/edit?usp=sharing">My Resume</a>
+                    Hi, I am Joshua Adewole. I am a self-taught software developer with experience in: 'bringing to life' UI designs, writing good server-side
+                    solutions in Python and JavaScript, and professionally building mobile apps with the thought of over tens of thousands of users from over 5
+                    countries. I sometimes write; other times, I design(although I am not cut out for this but I still try to make some meaning). Here's a quick
+                    look at <a href="https://docs.google.com/document/d/1mGkXLuzm_Rir-n6i1lnwgtECMC9HGQzq/edit?usp=sharing&ouid=115828739539076750598&rtpof=true&sd=true">my resume</a>
                 </p>
-                <br>
+                <br/>
                 <p>
-                    I currently have my BSc Systems Engineering at the University of Lagos in view. I love Mathematics(and generally solving problems),
-                    good music, cycling and other cool stuff. I don't think I am the life of the party but I sure bring good humor. When needed, I take
-                    communication very seriously (e.g In a team environment). Generally I'm just a cool guy, you'd love to meet (Trust me).
-                    I have been involved in some instances of public speaking (Feel free to hit me up if you need a speaker at any event). In a few years
-                    from now I hope to see myself as a Lead and possibly diving into Software Testing.
+                    I am currently open to Backend roles(especially with python [My love for python is out of this world]), Frontend roles(I love Vue so much!), 
+                    Full-stack roles(It would be an Ultimate ecstacy to build a product involving Python(Django/Flask) and VueJs) and/or Mobile app roles(I learnt 
+                    Flutter/Dart and it was shocking to know, mobile app development isn't so difficult as I had thought).
                 </p>
-                <br>
                 <p>
-                    I started out coding in Python 2, created word games on my little Techno M3 Phone- most of my friends claim my games were hard.
-                    With the help of the book "Learn Python the hard Way" I was able to get used to the Python syntax and then I switched into Python 3,
-                    after which I decided to go for web development- Django; on this path I was able to learn django, HTML, CSS and JavaScript extensively.
-                    Built quite a number of web apps with this stack; even worked on some Team project(s).
+                    I am currently in my penultimate undergraduate year at the University of Lagos, studying Systems Engineering. I love Mathematics
+                    (and generally solving problems), good music, cycling and other cool stuff. I don't think I am the life of the party but I sure bring good humor. 
+                    When needed, I take communication very seriously (e.g In a team environment). Generally I'm just a cool guy, you'd love to meet (Trust me).
+                    I have been involved in some instances of public speaking (Feel free to hit me up if you need a speaker at any event).
                 </p>
-                <br>
+                <br/>
                 <p>
-                    Thereafter I made a decision to work on my JavaScript as it seemed to be a very interesting language- which it is. I then took some Hackerrank
-                    challenges and with the help of a Friend and a recommended book, "Eloquent JavaScript", I garnered more knowledge on JavaScript.
-                    Vue Js was calling out to me (literally), I researched about it; for its simplicity, neat and lovely style of code, I took it up. Much thanks to
-                    <a target="_blank" href="https://taniarascia.com">Tania Rascia</a> whose tutorial got me up and running Vue. With that I then made Budget-go.
+                    Some people I admire are: <a target="_blank" href="https://taniarascia.com">Tania Rascia</a>, Armand Duplantis(World Record Holder in Pole Vault),
+                    Jordan Peterson and several others. Feel free to reach out to me: via mail to <a target="_blank" href="mailto:adewole.josh@gmail.com">adewole.josh@gmail.com</a>
+                    Feel free to give my blog a read <nuxt-link to="/blog">here</nuxt-link> 
                 </p>
-                <br>
-                <p>
-                    My Journey so far has been great, quite a number of hurdles here and there, but I'm so thankful for where I am. As time goes on, I'll be
-                    recounting my experiences, writing tutorials and many other writing expressions on <nuxt-link to="/blog">My Blog.</nuxt-link> Feel free
-                    to give it a read and a comment via mail to <a target="_blank" href="mailto:adewole.josh@gmail.com">adewole.josh@gmail.com</a> is very much appreciated and would
-                    definitely be replied.
-                </p>
+                <br/>
             </div>
             <hr class="mt-5"/>
             <div class="footer-copyright text-center">© 2021 Copyright:
