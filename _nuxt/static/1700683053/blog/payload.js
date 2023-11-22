@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blog", {data:[{articles:[{slug:"django-querying-the-faster-way",description:"Approaches that make your django queries faster",title:"Django querying the faster way",date:"Sep. 10, 2023"}]}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/blog", {data:[{articles:[{slug:"that-year",description:"what a year- 2022!",title:"2022: \"That Year\"",date:"Dec. 31, 2022"},{slug:"a-new-beginning",description:"When Life hits the human race, it needs a restart",title:"A New Beginning",date:"Oct. 29, 2020"}]}],fetch:{},mutations:void 0});
