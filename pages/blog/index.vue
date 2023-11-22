@@ -46,7 +46,7 @@
         },
         data() {
             return {
-                title: 'Josh\'s Blog'
+                title: this.title == null ? `Josh's blog` : `{this.title}`
             }
             },
             head() {

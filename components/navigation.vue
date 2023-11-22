@@ -8,7 +8,7 @@
             <nuxt-link class="navbar-items" to="/blog">Writings</nuxt-link>
             <a 
             class="navbar-items"
-            href="https://drive.google.com/file/d/1if4CHW_6asGoB3kIFTn7bx_2UhC1Vngj/view?usp=sharing"
+            href="https://docs.google.com/document/d/1DbnWrXYd13spsEVQ9QHWvNWsPD2Vu5eg/edit?usp=sharing&ouid=115828739539076750598&rtpof=true&sd=true"
             target="_blank"
             >
                 Resume
