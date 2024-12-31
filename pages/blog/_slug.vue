@@ -28,7 +28,7 @@
                     </div>
                     <nuxt-content class="text-justify ignore-css" :document="article" />
                     <hr class="mt-5"/>
-                    <div class="footer-copyright text-center">© 2021 Copyright:
+                    <div class="footer-copyright text-center">© (20) 21-23 Copyright:
                         <a target="_blank" class="text-dark text-decoration-none" href="mailto:adewole.josh@gmail.com">Joshua Adewole</a>
                         <a target="_blank" class="text-dark text-decoration-none" href="https://github.com/adewolejosh">(adewolejosh)</a>
                     </div>
