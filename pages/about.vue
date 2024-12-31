@@ -8,28 +8,28 @@
             <hr/>
             <div class="mt-5 me-xl-5 ms-xl-5 mb-5" id="about-note">
                 <p>
-                    Hi, I am Joshua Adewole. I am a self-taught software developer with experience in: 'bringing to life' UI designs, writing good server-side
+                    Hi, I am Joshua Adewole. a software developer and engineer with experience in: 'bringing to life' UI designs, writing good server-side
                     solutions in Python and JavaScript, and professionally building mobile apps with the thought of over tens of thousands of users from over 5
                     countries. I sometimes write; other times, I design(although I am not cut out for this but I still try to make some meaning). Here's a quick
-                    look at <a href="https://docs.google.com/document/d/1mGkXLuzm_Rir-n6i1lnwgtECMC9HGQzq/edit?usp=sharing&ouid=115828739539076750598&rtpof=true&sd=true">my resume</a>
+                    look at <a href="https://docs.google.com/document/d/1mGkXLuzm_Rir-n6i1lnwgtECMC9HGQzq/edit?usp=sharing&ouid=115828739539076750598&rtpof=true&sd=true">my old resume</a>
                 </p>
                 <br/>
                 <p>
-                    I am currently open to Backend roles(especially with python [My love for python is out of this world]), Frontend roles(I love Vue so much!), 
-                    Full-stack roles(It would be an Ultimate ecstacy to build a product involving Python(Django/Flask) and VueJs) and/or Mobile app roles(I learnt 
+                    I am currently open to roles :- (most especially with python [My love for python is out of this world]), Frontend roles(I love Vue so much!), 
+                    Full-stack roles(It would be an Ultimate ecstacy to build a product involving Python(Django/Flask) and VueJs or Flutter) and/or Mobile app roles(I learnt 
                     Flutter/Dart and it was shocking to know, mobile app development isn't so difficult as I had thought).
                 </p>
                 <p>
-                    I am currently in my penultimate undergraduate year at the University of Lagos, studying Systems Engineering. I love Mathematics
-                    (and generally solving problems), good music, cycling and other cool stuff. I don't think I am the life of the party but I sure bring good humor. 
+                    Recently got a degree in Systems Engineering at the University of Lagos. I love Mathematics (with a piqued interest in Economics, mixed Quant. with Finance), 
+                    generally solving problems, good music, chess, cycling and other cool stuff. I don't think I am the life of the party but I sure bring good humor. 
                     When needed, I take communication very seriously (e.g In a team environment). Generally I'm just a cool guy, you'd love to meet (Trust me).
                     I have been involved in some instances of public speaking (Feel free to hit me up if you need a speaker at any event).
                 </p>
                 <br/>
                 <p>
-                    Some people I admire are: <a target="_blank" href="https://taniarascia.com">Tania Rascia</a>, Armand Duplantis(World Record Holder in Pole Vault),
+                    Some people I admire are: <a target="_blank" href="https://taniarascia.com">Tania Rascia</a>, Armand Duplantis (The current World Record Holder at Pole Vault),
                     Jordan Peterson and several others. Feel free to reach out to me: via mail to <a target="_blank" href="mailto:adewole.josh@gmail.com">adewole.josh@gmail.com</a>
-                    Feel free to give my blog a read <nuxt-link to="/blog">here</nuxt-link> 
+                    Feel free to give my "dead" blog a read <nuxt-link to="/blog">here</nuxt-link> 
                 </p>
                 <br/>
             </div>
