@@ -33,49 +33,75 @@
 
                 <div id="projects">
                     <div class="m-5">
-                        <div id="note-taker" class="ms-lg-5">
+                        <div id="kechies" class="ms-lg-5">
                             <div class="row row-cols-1 row-cols-md-2">
                                 <div class="col-md-9 text-left p-2">
-                                    <h5 class="project-title"><span class="icon"> 📝 </span><a href="https://github.com/adewolejosh/Note-Taker" class="text-dark"> Note-Taker</a></h5>
+                                    <h5 class="project-title"><span class="icon"> 🏬 </span><a href="https://kechies.herokuapp.com/" class="text-dark"> Kechies Accessories</a></h5>
                                     <h8 class="text-muted project-details">
-                                        An API for taking notes anywhere and anytime in the fastest and easiest way possible.
+                                        An E-commerce store made with Django, HTML, CSS, JavaScript and Bootstrap
                                     </h8>
                                 </div>
                                 <div class="col-md-3 text-center mt-xl-3 p-2">
                                     <div class="">
-                                        <a class="gh-ic m-2" href="https://github.com/adewolejosh/Note-Taker">
-                                           <i class="fab fa-github text-dark fa-2x"></i>
+                                        <a class="gh-ic m-2" href="https://github.com/adewolejosh/kechies">
+                                            <i class="fab fa-github text-dark fa-2x"></i>
                                         </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <hr/>
-
-                        <div id="budgito" class="ms-lg-5">
-                            <div class="row row-cols-1 row-cols-md-2">
-                                <div class="col-md-9 text-left p-2">
-                                    <h5 class="project-title"><span class="icon"> 📈📉 </span><a href="https://budgito.herokuapp.com/" class="text-dark"> Budgito</a></h5>
-                                    <h8 class="text-muted project-details">
-                                        An API for tracking and managing monthly income and expense written in Django(DRF), documented in swagger UI
-                                    </h8>
-                                </div>
-                                <div class="col-md-3 text-center mt-xl-3 p-2">
-                                    <div class="">
-                                        <a class="gh-ic m-2" href="https://github.com/DSC-Unilag/ohw-2020-11">
-                                           <i class="fab fa-github text-dark fa-2x"></i>
-                                        </a>
-                                        <a class="gh-ic m-2" href="https://budgito.herokuapp.com/">
+                                        <a class="gh-ic m-2" href="https://kechies.herokuapp.com/">
                                             <span class="iconify fa-2x" data-icon="logos-heroku-icon" data-inline="false"></span>
-                                           <i class="fa-heroku"></i>
+                                            <i class="fab fa-heroku"></i>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-
+                            
                         </div>
-
+                        
+                        <hr/>
+                        
+                        <div id="anonymous-messenger" class="ms-lg-5">
+                            <div class="row row-cols-1 row-cols-md-2">
+                                <div class="col-md-9 text-left p-2">
+                                    <h5 class="project-title"><span class="icon"> 📬 </span><a href="http://kubool.herokuapp.com/" class="text-dark"> Anonymous Messenger</a></h5>
+                                    <h8 class="text-muted project-details">
+                                        My Personal Anonymous Messenger Web app made with Django, HTML and CSS
+                                    </h8>
+                                </div>
+                                <div class="col-md-3 text-center mt-xl-3 p-2">
+                                    <div class="">
+                                        <a class="gh-ic m-2" href="https://github.com/adewolejosh/Anonymous-Messenger">
+                                            <i class="fab fa-github text-dark fa-2x"></i>
+                                        </a>
+                                        <a class="gh-ic m-2" href="http://kubool.herokuapp.com/">
+                                            <span class="iconify fa-2x" data-icon="logos-heroku-icon" data-inline="false"></span>
+                                            <i class="fa-heroku"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <hr/>
+                        
+                        <div id="christmas-tree" class="ms-lg-5">
+                            <div class="row row-cols-1 row-cols-md-2">
+                                <div class="col-md-9 text-left p-2">
+                                    <h5 class="project-title"><span class="icon"> 🎄 </span><a class="text-dark" href="#"> Christmas Tree </a></h5>
+                                    <h8 class="text-muted project-details">
+                                        A Christmas design Challenge I tackled simply with Python 3's Turtle module
+                                    </h8>
+                                </div>
+                                <div class="col-md-3 text-center mt-xl-3 p-2">
+                                    <div class="">
+                                        <a class="gh-ic m-2" href="https://github.com/adewolejosh/christmas-tree-design">
+                                            <i class="fab fa-github text-dark fa-2x"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
                         <hr/>
 
                         <div id="budget-go" class="ms-lg-5">
@@ -103,76 +129,6 @@
 
                         <hr/>
 
-                        <div id="kechies" class="ms-lg-5">
-                            <div class="row row-cols-1 row-cols-md-2">
-                                <div class="col-md-9 text-left p-2">
-                                    <h5 class="project-title"><span class="icon"> 🏬 </span><a href="https://kechies.herokuapp.com/" class="text-dark"> Kechies Accessories</a></h5>
-                                    <h8 class="text-muted project-details">
-                                        An E-commerce store made with Django, HTML, CSS, JavaScript and Bootstrap
-                                    </h8>
-                                </div>
-                                <div class="col-md-3 text-center mt-xl-3 p-2">
-                                    <div class="">
-                                        <a class="gh-ic m-2" href="https://github.com/adewolejosh/kechies">
-                                           <i class="fab fa-github text-dark fa-2x"></i>
-                                        </a>
-                                        <a class="gh-ic m-2" href="https://kechies.herokuapp.com/">
-                                            <span class="iconify fa-2x" data-icon="logos-heroku-icon" data-inline="false"></span>
-                                           <i class="fab fa-heroku"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <hr/>
-
-                        <div id="anonymous-messenger" class="ms-lg-5">
-                            <div class="row row-cols-1 row-cols-md-2">
-                                <div class="col-md-9 text-left p-2">
-                                    <h5 class="project-title"><span class="icon"> 📬 </span><a href="http://kubool.herokuapp.com/" class="text-dark"> Anonymous Messenger</a></h5>
-                                    <h8 class="text-muted project-details">
-                                        My Personal Anonymous Messenger Web app made with Django, HTML and CSS
-                                    </h8>
-                                </div>
-                                <div class="col-md-3 text-center mt-xl-3 p-2">
-                                    <div class="">
-                                        <a class="gh-ic m-2" href="https://github.com/adewolejosh/Anonymous-Messenger">
-                                           <i class="fab fa-github text-dark fa-2x"></i>
-                                        </a>
-                                        <a class="gh-ic m-2" href="http://kubool.herokuapp.com/">
-                                            <span class="iconify fa-2x" data-icon="logos-heroku-icon" data-inline="false"></span>
-                                           <i class="fa-heroku"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <hr/>
-
-                        <div id="christmas-tree" class="ms-lg-5">
-                            <div class="row row-cols-1 row-cols-md-2">
-                                <div class="col-md-9 text-left p-2">
-                                    <h5 class="project-title"><span class="icon"> 🎄 </span><a class="text-dark" href="#"> Christmas Tree </a></h5>
-                                    <h8 class="text-muted project-details">
-                                        A Christmas design Challenge I tackled simply with Python 3's Turtle module
-                                    </h8>
-                                </div>
-                                <div class="col-md-3 text-center mt-xl-3 p-2">
-                                    <div class="">
-                                        <a class="gh-ic m-2" href="https://github.com/adewolejosh/christmas-tree-design">
-                                           <i class="fab fa-github text-dark fa-2x"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <hr/>
                     </div>
                 </div>
 

@@ -8,10 +8,11 @@
             <hr/>
             <div class="mt-5 me-xl-5 ms-xl-5 mb-5" id="about-note">
                 <p>
-                    Hi, I am Joshua Adewole. a software developer and engineer with experience in: 'bringing to life' UI designs, writing good server-side
-                    solutions in Python and JavaScript, and professionally building mobile apps with the thought of over tens of thousands of users from over 5
-                    countries. I sometimes write; other times, I design(although I am not cut out for this but I still try to make some meaning). Here's a quick
-                    look at <a href="https://docs.google.com/document/d/1mGkXLuzm_Rir-n6i1lnwgtECMC9HGQzq/edit?usp=sharing&ouid=115828739539076750598&rtpof=true&sd=true">my old resume</a>
+                    Hi, I am Joshua Adewole - a software engineer with professional experience in: 'bringing to life' UI designs, 
+                    writing good, clean and scalable server-side solutions in Python and JavaScript, and building mobile apps with the thought of 
+                    over tens of thousands of users from over 5 countries. I sometimes write; other times, I design(although 
+                    I am not cut out for this but I still try to make some meaning). Here's a quick
+                    look at <a href="https://docs.google.com/document/d/1DbnWrXYd13spsEVQ9QHWvNWsPD2Vu5eg/edit?usp=sharing&ouid=115828739539076750598&rtpof=true&sd=true">my resume</a>
                 </p>
                 <br/>
                 <p>
@@ -20,15 +21,15 @@
                     Flutter/Dart and it was shocking to know, mobile app development isn't so difficult as I had thought).
                 </p>
                 <p>
-                    Recently got a degree in Systems Engineering at the University of Lagos. I love Mathematics (with a piqued interest in Economics, mixed Quant. with Finance), 
+                    I am a graduate of the University of Lagos, where I earned a BSc Systems Engineering, Second Class Upper Division (4.15/5.00). I love Mathematics (with a piqued interest in Economics, mixed Quant. with Finance), 
                     generally solving problems, good music, chess, cycling and other cool stuff. I don't think I am the life of the party but I sure bring good humor. 
-                    When needed, I take communication very seriously (e.g In a team environment). Generally I'm just a cool guy, you'd love to meet (Trust me).
+                    I take communication very seriously. Generally I'm just a cool guy, you'd love to meet (Trust me).
                     I have been involved in some instances of public speaking (Feel free to hit me up if you need a speaker at any event).
                 </p>
                 <br/>
                 <p>
                     Some people I admire are: <a target="_blank" href="https://taniarascia.com">Tania Rascia</a>, Armand Duplantis (The current World Record Holder at Pole Vault),
-                    Jordan Peterson and several others. Feel free to reach out to me: via mail to <a target="_blank" href="mailto:adewole.josh@gmail.com">adewole.josh@gmail.com</a>
+                    Dr. Jordan Peterson and several others. Feel free to reach out to me: via mail to <a target="_blank" href="mailto:adewole.josh@gmail.com">adewole.josh@gmail.com</a>
                     Feel free to give my "dead" blog a read <nuxt-link to="/blog">here</nuxt-link> 
                 </p>
                 <br/>
