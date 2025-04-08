@@ -28,7 +28,7 @@
                     </div>
                     <nuxt-content class="text-justify ignore-css" :document="article" />
                     <hr class="mt-5"/>
-                    <div class="footer-copyright text-center">© (20) 21-23 Copyright:
+                    <div class="footer-copyright text-center">© (20)21-25 Copyright:
                         <a target="_blank" class="text-dark text-decoration-none" href="mailto:adewole.josh@gmail.com">Joshua Adewole</a>
                         <a target="_blank" class="text-dark text-decoration-none" href="https://github.com/adewolejosh">(adewolejosh)</a>
                     </div>
@@ -64,7 +64,7 @@
             let minutes = 0
             const contentAsString = JSON.stringify(this.article)
             const words = contentAsString.split(' ').length
-            const wordsPerMinute = 400
+            const wordsPerMinute = 250
             
             minutes = Math.ceil(words / wordsPerMinute)
             
@@ -117,6 +117,7 @@
     font-family: Libre Franklin, sans-serif;
     text-align: justify;
     text-justify: inter-word;
+    /* font-weight: 600; */
 }
 
 h7 {
