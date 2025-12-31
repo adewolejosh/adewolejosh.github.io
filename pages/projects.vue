@@ -32,7 +32,7 @@
                 </div> -->
 
                 <div id="projects">
-                    <div class="m-5">
+                    <div class="m-5" hidden>
                         <div id="kechies" class="ms-lg-5">
                             <div class="row row-cols-1 row-cols-md-2">
                                 <div class="col-md-9 text-left p-2">
@@ -130,6 +130,7 @@
                         <hr/>
 
                     </div>
+                    <div class="my-5 text-center"> WORKING ON A FEW PERSONALLY EXCITING PROJECTS, STAY TUNED</div>
                 </div>
 
             </div>

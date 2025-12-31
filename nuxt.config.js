@@ -19,7 +19,7 @@ export default {
             {
                 // bootstrap
                 rel: 'stylesheet',
-                href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css'
+                href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css'
             },
             {
                 // mdbootstrap
@@ -52,7 +52,7 @@ export default {
             {
                 // bootsrap popper and js
                 charset: 'utf-8',
-                src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'
+                src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js'
             }
         ]
     }

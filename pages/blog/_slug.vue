@@ -11,7 +11,7 @@
                     <div class="mt-5 mb-2">
                         <h3 class="post-title font-weight-bold text-capitalize">{{ article.title }}</h3>
                         <h6 class="post-date">{{ article.date }}</h6>
-                        <div class="mt-3"><h7>{{ readingTime }} min read</h7></div>
+                        <!-- <div class="mt-3"><h7>{{ readingTime }} min read</h7></div> -->
                         <div class="mt-3">
                             <button v-for="(tag, id) in article.tags" :key="id" class="btn btn-sm btn-outline-dark rounded-pill">
                                 {{ tag }}
@@ -26,9 +26,9 @@
                         <p class="font-weight-lighter post-ref text-center">{{ article.ref }}</p>
 
                     </div>
-                    <nuxt-content class="text-justify ignore-css" :document="article" />
+                    <nuxt-content class="text-justify lh-lg tracking-wider ignore-css" :document="article" />
                     <hr class="mt-5"/>
-                    <div class="footer-copyright text-center">© (20)21-25 Copyright:
+                    <div class="footer-copyright text-center">© (20)21-26 Copyright:
                         <a target="_blank" class="text-dark text-decoration-none" href="mailto:adewole.josh@gmail.com">Joshua Adewole</a>
                         <a target="_blank" class="text-dark text-decoration-none" href="https://github.com/adewolejosh">(adewolejosh)</a>
                     </div>
@@ -149,6 +149,16 @@ h7 {
 
 .nuxt-content code {
     font-size: 14px;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 </style>
