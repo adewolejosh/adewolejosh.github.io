@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "start": "nuxt start",
-    "deploy": "gh-pages -d .output"
+    "deploy": "gh-pages -d .output/public"
   },
   "author": "Joshua Adewole",
   "license": "ISC",
