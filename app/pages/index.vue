@@ -13,7 +13,7 @@
                                 <p>
                                     <small class="intro">
                                         Systems Engineer & Mathematics Enthusiast; <br />
-                                        Open to roles in Engineering and Finance. <br/>
+                                        Open to roles in Engineering and Finance. <br />
                                         <!-- For fun: Convert UI designs to elegant mobile and web apps.<br/> -->
                                         <nuxt-link class="text-decoration-none" to="/about">
                                             <button class="btn btn-outline-dark mt-3 btn-sm waves-effect">
@@ -26,23 +26,23 @@
                         </div>
                         <div>
                             <a href="https://github.com/adewolejosh/" target="_blank">
-                               <i class="fab fa-github text-dark"></i>
+                                <i class="fab fa-github text-dark"></i>
                             </a>
                             <a href="https://twitter.com/adewole_josh/" target="_blank">
                                 <i class="fab fa-twitter p-3 text-dark"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/joshua-adewole/" target="_blank">
-                               <i class="fab fa-linkedin-in text-dark"></i>
-                           </a>
-                           
-                        </div> 
+                                <i class="fab fa-linkedin-in text-dark"></i>
+                            </a>
+
+                        </div>
                     </div>
 
                     <div class="col-md-2"></div>
 
                     <div class="col-md-4 mt-3 main-photo order-first order-sm-first order-md-1">
                         <div class="main-photo">
-                            <img class="mx-auto d-block" src="@/static/images/josh.jpg" id="josh">
+                            <img class="mx-auto d-block" src="/images/josh.jpg" id="josh">
                         </div>
                     </div>
 
@@ -52,39 +52,24 @@
     </div>
 </template>
 
-<script>
+<script setup>
+    import Navigation from '@/components/navigation.vue';
 
-import Navigation from '@/components/navigation.vue';
-
-export default {
-components: {
-    Navigation
-},
-
-data() {
-      return {
-        title: 'I am Josh!'
-      }
-    },
-    head() {
-      return {
-        title: this.title,
+    const title = 'I am Josh!'
+    useHead({
+        title: title,
         meta: [
-          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {
-            hid: 'All of Me',
-            name: 'Josh\'s',
-            content: 'welcome to my portfolio/blog/personal space'
-          }
+            {
+                hid: 'All of Me',
+                name: 'Josh\'s',
+                content: 'welcome to my portfolio/blog/personal space'
+            }
         ]
-      }
-    }
-} 
+    });
 
 </script>
 
 <style scoped>
-
 .main-write {
     margin-top: 20%;
 }
@@ -117,7 +102,7 @@ h3 {
 
 .intro {
     font-family: Libre Franklin;
+    font-weight: 300;
     line-height: 0.5cm;
 }
-
 </style>

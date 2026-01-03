@@ -1,6 +1,6 @@
 <template>
     <div>
-        <title>{{ article.title }}</title>            
+        <title>{{ article.title }}</title>
         <div class="row row-cols-1 row-cols-md-3 m-5">
             <div class="col-md-2"></div>
             <div class="col-md-8">
@@ -10,23 +10,33 @@
                 <div class="mt-5">
                     <div class="mt-5 mb-2">
                         <h3 class="post-title font-weight-bold text-capitalize">{{ article.title }}</h3>
-                        <h6 class="post-date">{{ article.date }}</h6>
+                        <h6 class="post-date">{{ article.meta.date }}</h6>
                         <!-- <div class="mt-3"><h7>{{ readingTime }} min read</h7></div> -->
                         <div class="mt-3">
-                            <button v-for="(tag, id) in article.tags" :key="id" class="btn btn-sm btn-outline-dark rounded-pill">
+                            <button v-for="(tag, id) in article.meta.tags" :key="id" class="btn btn-sm btn-outline-dark rounded-pill">
                                 {{ tag }}
                             </button>
                         </div>
                     </div>
                     <hr/>
-                    <img class="d-flex mx-auto mt-5 mb-5 img-fluid" :src="require(`@/static/images/blog/${article.img}`)" :alt="article.alt" id="post-img"/>
+                    <img class="d-flex mx-auto mt-5 mb-5 img-fluid" :src="`/images/blog/${article.meta.img}`" :alt="article.meta.alt" id="post-img"/>
                     
                     <div>
-                        <p class="font-weight-lighter post-quote me-3 ms-3 text-center">{{ article.quote }}</p>
-                        <p class="font-weight-lighter post-ref text-center">{{ article.ref }}</p>
+                        <p class="font-weight-lighter post-quote me-3 ms-3 text-center">{{ article.meta.quote }}</p>
+                        <p class="font-weight-lighter post-ref text-center">{{ article.meta.ref }}</p>
 
                     </div>
-                    <nuxt-content class="text-justify lh-lg tracking-wider ignore-css" :document="article" />
+                    <!-- <nuxt-content class="text-justify lh-lg tracking-wider ignore-css" :document="article.body.value" /> -->
+                    <div class="nuxt-content">
+                        <ContentRenderer class="text-justify lh-lg tracking-wider ignore-css" :value="article" v-if="article" />
+                        
+                        <div class="empty-page" v-else>
+                            <h1>Page Not Found</h1>
+                            <p>Oops! The content you're looking for doesn't exist.</p>
+                            <NuxtLink to="/">Go back home</NuxtLink>
+                        </div>
+                    </div>
+
                     <hr class="mt-5"/>
                     <div class="footer-copyright text-center">© (20)21-26 Copyright:
                         <a target="_blank" class="text-dark text-decoration-none" href="mailto:adewole.josh@gmail.com">Joshua Adewole</a>
@@ -51,34 +61,52 @@
     </div>
 </template>
 
-<script>
-    export default {
-        data() {
-            return {
-                article: this.article
-            }
-        },
+<script setup>
+    const route = useRoute()
 
-        computed: {
-            readingTime () {
-            let minutes = 0
-            const contentAsString = JSON.stringify(this.article)
-            const words = contentAsString.split(' ').length
-            const wordsPerMinute = 250
-            
-            minutes = Math.ceil(words / wordsPerMinute)
-            
-            return minutes
-            }
-        },
+    const slug = computed(() => {
+      const s = route.params.slug
+      if (!Array.isArray(s) || s.length === 0) return null
+      return s.join('/')
+    })
 
-        async asyncData({ $content, params }) {
-            const article = await $content(`blog`, params.slug).fetch()
+    const { data: article } = await useAsyncData(`blog-${slug}`, async () => {
+        const allContent = await queryCollection('content').all()
+        
+        const found = allContent.find(item => {
+            return item.stem === `blog/${slug.value}` || 
+                item.stem?.toLowerCase() === `blog/${slug.value.toLowerCase()}`
+        })
 
-            return { article }
+        if (!found) {
+            throw createError({ statusCode: 404 })
         }
 
-    }
+        return found
+    })
+
+    // // Calculate reading time
+    const readingTime = computed(() => {
+        if (!article.value) return 0
+        
+        const contentAsString = JSON.stringify(article.value)
+        const words = contentAsString.split(' ').length
+        const wordsPerMinute = 250
+        
+        return Math.ceil(words / wordsPerMinute)
+    })
+
+    // Set page meta
+    useHead({
+        title: (article?.title ?? '') || "Josh's blog",
+        meta: [
+            {
+                name: 'description',
+                content: article?.description || ''
+            }
+        ]
+    })
+
 </script>
 
 <style>
@@ -117,7 +145,7 @@
     font-family: Libre Franklin, sans-serif;
     text-align: justify;
     text-justify: inter-word;
-    /* font-weight: 600; */
+    font-weight: 300;
 }
 
 h7 {
@@ -145,6 +173,11 @@ h7 {
   text-align: justify;
   font-family: Roboto;
   font-weight: 300;
+}
+
+.nuxt-content h3 a {
+    text-decoration: none;
+    color: black;
 }
 
 .nuxt-content code {

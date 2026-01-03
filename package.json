@@ -1,20 +1,24 @@
 {
   "name": "portfolio-v2",
-  "version": "1.0.0",
-  "description": "the second version of my portfolio site",
+  "version": "1.1.0",
+  "description": "The second version of my portfolio site - following heroku platform-lock",
   "scripts": {
-    "dev": "nuxt",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "start": "nuxt start",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d .output"
   },
   "author": "Joshua Adewole",
   "license": "ISC",
   "dependencies": {
-    "@nuxt/content": "^1.14.0",
-    "nuxt": "^2.15.6"
+    "@nuxt/content": "latest",
+    "better-sqlite3": "^12.5.0",
+    "nuxt": "latest"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^6.3.0"
   }
 }

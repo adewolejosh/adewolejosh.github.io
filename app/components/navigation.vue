@@ -2,15 +2,13 @@
     <nav>
         <div>
             <nuxt-link class="navbar-items" to="/">
-                <img class="navbar-brand logo" src="@/static/images/dark-logo.png" alt="aj-logo">
+                <img class="navbar-brand logo" src="/images/dark-logo.png" alt="aj-logo">
             </nuxt-link>
             <nuxt-link class="navbar-items" to="/projects">Projects</nuxt-link>
             <nuxt-link class="navbar-items" to="/blog">Writings</nuxt-link>
-            <a 
-            class="navbar-items"
-            href="https://docs.google.com/document/d/1DbnWrXYd13spsEVQ9QHWvNWsPD2Vu5eg/edit?usp=sharing&ouid=115828739539076750598&rtpof=true&sd=true"
-            target="_blank"
-            >
+            <a class="navbar-items"
+                href="https://docs.google.com/document/d/1DbnWrXYd13spsEVQ9QHWvNWsPD2Vu5eg/edit?usp=sharing&ouid=115828739539076750598&rtpof=true&sd=true"
+                target="_blank">
                 Resume
             </a>
         </div>
@@ -22,7 +20,6 @@
 </script>
 
 <style scoped>
-
 nav {
     margin-top: 5%;
     margin-left: 1%;
@@ -42,6 +39,7 @@ nav {
     margin-left: 5px;
     margin-right: 5px;
     font-family: Libre Franklin;
+    font-weight: 200;
     position: relative;
     text-align: center;
     align-content: center;
@@ -66,5 +64,4 @@ nav a.nuxt-link-exact-active {
     vertical-align: middle;
     pointer-events: none;
 }
-
 </style>
