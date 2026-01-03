@@ -43,10 +43,10 @@
     </div>
 </template>
 
-<script>
-export default {
-    
-}
+<script setup>
+    useHead({
+        title: 'about',
+    });
 </script>
 
 <style scoped>
@@ -57,6 +57,7 @@ export default {
 
 p {
     font-family: Libre Franklin, sans-serif;
+    font-weight: 200;
     text-align: justify;
     text-justify: inter-word;
     font-size: 1.2em;

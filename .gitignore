@@ -4,3 +4,8 @@ node_modules/
 .nuxt/
 
 .DS_Store
+
+.ignoreme.md
+
+.data/
+.output/
