@@ -1,0 +1,1 @@
+{"id":"88c5aefe-46ae-4c97-b0e0-c425f0d368ef","timestamp":1767996032829,"matcher":{"static":{"/__nuxt_content/content/sql_dump.txt":{"prerender":true},"/__nuxt_content/blog/sql_dump.txt":{"prerender":true}},"wildcard":{},"dynamic":{}},"prerendered":["/","/projects","/about","/blog","/blog/2025","/blog/21days","/blog/2024","/blog/django-querying-the-faster-way"]}
